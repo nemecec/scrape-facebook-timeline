@@ -31,4 +31,10 @@ You Need More Help?
 2. Open up Tampermonkey and create a new script
 3. Copy paste the script from `scrape-facebook-timeline.js` or link it with `@requires` from you userscript definition.
 4. **Modify @include URL in the header to match the URL of the Facebook page that you want to scrape**
-5. Navigate to the Facebook page and there should be [Post message] buttons next to the [Share] link on each status update.
+5. Update the constants at the top of the script:
+```javascript
+    var slackWebhookUrl = "<insert your Slack webhook URL here>";
+    var icon_emoji = ":fork_and_knife:";
+    var channel = "@neeme";
+```
+6. Navigate to the Facebook page and there should be [Post message] buttons next to the [Share] link on each status update.
