@@ -21,7 +21,7 @@
     Array.prototype.forEach.call(wrappers, function(wrapper) {
         var message = wrapper.getElementsByClassName("userContent")[0];
         var time = wrapper.getElementsByTagName("abbr")[0];
-        var action = wrapper.getElementsByClassName("share_root")[0].parentElement;
+        var action = wrapper.getElementsByClassName("comment_link")[0].parentElement;
         var btn = document.createElement("BUTTON");
         var t = document.createTextNode("Post message");
         btn.appendChild(t);
