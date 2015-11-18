@@ -6,6 +6,8 @@
 // @description  Post messages from Facebook timeline feed straight to Slack
 // @author       Neeme Praks
 // @include      https://www.facebook.com/Cafe-Noir-113131625390885/*
+// @include      https://www.facebook.com/ylicool/*
+// @include      https://www.facebook.com/Meat-Market-Steak-Cocktail-270892276285391/*
 // @grant        GM_xmlhttpRequest
 // @run-at       document-idle
 // ==/UserScript==
