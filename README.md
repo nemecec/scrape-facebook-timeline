@@ -29,7 +29,7 @@ You Need More Help?
 
 1. Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
 2. Open up Tampermonkey and create a new script
-3. Copy paste the script from `scrape-facebook-timeline.js` or link it with `@requires` from you userscript definition.
+3. Copy paste the script from `scrape-facebook-timeline.js` or link it with `@requires` from your userscript definition.
 4. **Modify @include URL in the header to match the URL of the Facebook page that you want to scrape**
 5. Update the constants at the top of the script:
 
