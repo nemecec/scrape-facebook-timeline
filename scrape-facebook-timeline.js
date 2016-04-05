@@ -18,7 +18,7 @@
     var icon_emoji = ":fork_and_knife:";
     var channel = "@neeme";
 
-    var pageTitle = document.getElementsByTagName("h2")[0].textContent;
+    var pageTitle = document.getElementsByTagName("h1")[1].textContent;
     var wrappers = document.getElementsByClassName("userContentWrapper");
     Array.prototype.forEach.call(wrappers, function(wrapper) {
         var message = wrapper.getElementsByClassName("userContent")[0];
